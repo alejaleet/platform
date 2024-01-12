@@ -1,8 +1,9 @@
 import React from 'react'
+import style from './Auth.module.scss';
 
 const Auth = () => {
     return (
-        <div>
+        <div className={style.back}>
             Авторизация
         </div>
     )
